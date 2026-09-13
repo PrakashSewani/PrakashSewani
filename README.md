@@ -1,72 +1,91 @@
-<h1 align="center">Prakash Sewani</h1>
+<div align="center">
+  <img src="./assets/hero.svg" width="820" alt="Terminal typing: prakash sewani — senior software engineer — industrial automation · iot · edge · rust · go" />
+</div>
+
+<h3 align="center">Software from the sensor to the screen.</h3>
 
 <p align="center">
-  <strong>Senior Software Engineer</strong> · Full-Stack · Cloud · AI/ML
-</p>
-
-<p align="center">
-  <a href="mailto:prakashsewani1994@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://prakashsewani.com/"><img src="https://img.shields.io/badge/Website-000000?style=flat&logo=googlechrome&logoColor=white" alt="Website"></a>
-  <a href="https://prakashsewaniresume.tiiny.site/"><img src="https://img.shields.io/badge/Resume-007ACC?style=flat&logo=readthedocs&logoColor=white" alt="Resume"></a>
+  <a href="https://prakashsewani.com"><img src="https://img.shields.io/badge/Website-prakashsewani.com-1f2937?style=flat-square&logo=googlechrome&logoColor=f59e0b" alt="Website"></a>
+  <a href="mailto:prakashsewani1994@gmail.com"><img src="https://img.shields.io/badge/Email-prakashsewani1994%40gmail.com-1f2937?style=flat-square&logo=gmail&logoColor=ea4335" alt="Email"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=PrakashSewani.class-spy"><img src="https://img.shields.io/badge/Marketplace-Class--Spy-1f2937?style=flat-square" alt="VS Code Marketplace"></a>
 </p>
 
 ---
 
-Building scalable systems across the full stack — from cloud infrastructure to mobile UIs. I architect and ship production-grade applications using **TypeScript, React, React Native, and Node.js**, backed by cloud-native deployments on **AWS & Azure**. Currently at **WonderBiz Technologies**, leading frontend and full-stack initiatives across client projects.
+I build things for machines, mostly on my own time. The domain I live in is **industrial automation, IoT and edge** — device data, links that drop, and software that has to keep telling the truth when nobody is watching. It's a good place to learn what *"it works"* actually means.
+
+Everything here started as a problem I had. Nothing is a demo.
 
 ---
 
-### What I Do
+### What my repos say about me
 
-- **Full-Stack Engineering** — End-to-end ownership from database design to pixel-perfect UIs
-- **Cloud & Infrastructure** — AWS, Azure, Docker, Kubernetes, CI/CD pipelines
-- **Mobile Development** — Cross-platform apps with React Native
-- **AI/ML Integration** — TensorFlow, OpenCV, on-device intelligence
-- **Developer Tooling** — VS Code extensions, CLI utilities, automation tools
+<div align="center">
+  <img src="./assets/thinking.svg" width="880" alt="Local first, spec before code, small tools, still playful" />
+</div>
+
+Open any four of my repos and the same four things turn up. It isn't a strategy — it's just how I like building.
 
 ---
 
-### Tech Stack
+### Two I'd show you first
+
+**Class-Spy** · <sub>live on the VS Code Marketplace</sub>
+
+Hover any class string and see where the CSS actually lives: definitions grouped by file, Tailwind utilities decoded, SCSS `&` nesting resolved, unknown classes flagged, and missing rules created in place. Framework-aware across HTML, React, Vue, Svelte, Astro and Angular, with a workspace index that stays live as files change.
+
+`TypeScript` `VS Code API` `AST` — [source](https://github.com/PrakashSewani/Class-Spy)
+
+**episode-roulette**
+
+A 🎲 Random Episode button inside Netflix and Prime Video. It discovers every episode across every season, picks one with equal odds, and starts playback as if you'd clicked it yourself. No APIs, no server, no account — and it refuses to randomise a catalog it couldn't fully discover.
+
+`TypeScript` `MV3` `Safari` — [source](https://github.com/PrakashSewani/episode-roulette)
+
+---
+
+The rest is in the [repos](https://github.com/PrakashSewani?tab=repositories) — terminal tools, a gateway, a few extensions, and some things built purely because something annoyed me. Poke around; that's the honest picture.
+
+**Want to build something?** I'm open to collaborations and project ideas, the stranger the better. Reach out and tell me what you're thinking.
+
+---
+
+### Tools I reach for
 
 **Languages**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![C%23](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
-**Frontend**
+**Edge, industrial & realtime**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white)
+![Modbus](https://img.shields.io/badge/Modbus-1f2937?style=flat-square) ![WebSockets](https://img.shields.io/badge/WebSockets-1f2937?style=flat-square) ![Server-Sent Events](https://img.shields.io/badge/streaming-SSE-1f2937?style=flat-square) ![Event-driven](https://img.shields.io/badge/design-event--driven-1f2937?style=flat-square) ![Observability](https://img.shields.io/badge/telemetry-observability-1f2937?style=flat-square) ![Local-first](https://img.shields.io/badge/runtime-local--first-1f2937?style=flat-square)
 
-**Backend**
+**Platform & cloud**
 
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-404D59?style=flat&logo=express&logoColor=61DAFB) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**Cloud & DevOps**
+**Data & transport**
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0072C6?style=flat&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![REST](https://img.shields.io/badge/API-REST-1f2937?style=flat-square)
 
-**Databases**
+**Surfaces**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-
-**AI/ML & Tools**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EEF?style=flat&logo=opencv&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Microfrontends](https://img.shields.io/badge/architecture-microfrontends-1f2937?style=flat-square)
 
 ---
 
-### Open Source
+### Numbers
 
-I actively build and maintain developer tools:
+<div align="center">
+  <img src="./assets/stats.svg" width="880" alt="434 contributions, 382 commits and 15 pull requests across 21 repositories in the last twelve months, with a weekly contribution chart" />
+</div>
 
-- **[git-vacuum](https://github.com/PrakashSewani/git-vacuum)** — CLI utility to mirror all your GitHub repos locally (Rust)
-- **[DoneSignal](https://github.com/PrakashSewani/DoneSignal)** — Audio notification when scripts, builds, or AI agents finish
-- **[Class-Spy](https://github.com/PrakashSewani/Class-Spy)** — VS Code extension for inspecting CSS and Tailwind classes
-- **[prompt-lance](https://github.com/PrakashSewani/prompt-lance)** — Prompt engineering and AI agent architecture
-- **[Habitual](https://github.com/PrakashSewani/Habitual)** — Cross-platform habit tracking platform
+<sub>Public repos only — plenty of my work lives in private ones, so read these as a floor, not a ceiling. The panel is generated from the GitHub API by [`scripts/generate-stats.mjs`](./scripts/generate-stats.mjs) and refreshed weekly, so nothing here depends on a third-party image service.</sub>
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PrakashSewani&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrakashSewani&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165">
-</p>
+<div align="center">
+  <b>Take whatever is useful.</b><br/>
+  <sub>Work history, résumé and the professional side live at <a href="https://prakashsewani.com">prakashsewani.com</a> — this page is just what I make.</sub><br/><br/>
+  <a href="mailto:prakashsewani1994@gmail.com">prakashsewani1994@gmail.com</a> · <a href="https://github.com/PrakashSewani?tab=repositories">all repositories</a>
+</div>

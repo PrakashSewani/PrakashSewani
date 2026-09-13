@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Prakash Sewani — terminal</title>
+  <desc id="heroDesc">An animated terminal window that types out: prakash sewani, senior software engineer, focused on industrial automation, IoT, edge, Rust and Go.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070a0f"/>
+    </linearGradient>
+    <linearGradient id="edgeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.16" cy="0.04" r="0.8">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardShadow" x="-6%" y="-6%" width="112%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <clipPath id="c1"><rect id="r1" class="clip" x="40" y="62" width="620" height="32"/></clipPath>
+    <clipPath id="c2"><rect id="r2" class="clip" x="40" y="98" width="620" height="32"/></clipPath>
+    <clipPath id="c3"><rect id="r3" class="clip" x="40" y="140" width="620" height="32"/></clipPath>
+    <clipPath id="c4"><rect id="r4" class="clip" x="40" y="176" width="620" height="32"/></clipPath>
+    <clipPath id="c5"><rect id="r5" class="clip" x="40" y="230" width="620" height="32"/></clipPath>
+  </defs>
+
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 21px;
+      white-space: pre;
+    }
+    .prompt { fill: #f59e0b; }
+    .cmd    { fill: #e2e8f0; }
+    .name   { fill: #f8fafc; font-weight: 700; }
+    .dim    { fill: #64748b; }
+    .key    { fill: #cbd5e1; }
+    .barTxt { fill: #475569; font-size: 13px; letter-spacing: 0.06em; }
+    .clip   { transform-box: view-box; transform-origin: 0 0; animation: reveal 1s both steps(28, end); }
+    #r1 { animation-duration: 1.00s; animation-delay: 0.30s; }
+    #r2 { animation-duration: 0.85s; animation-delay: 1.45s; }
+    #r3 { animation-duration: 0.95s; animation-delay: 2.45s; }
+    #r4 { animation-duration: 1.05s; animation-delay: 3.55s; }
+    #r5 { animation-duration: 0.30s; animation-delay: 4.75s; }
+    @keyframes reveal { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .cursor { animation: blink 1.05s steps(1, end) 4.9s infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .liveDot { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    .sweep { animation: drift 7s ease-in-out infinite; }
+    @keyframes drift { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+  </style>
+
+  <rect x="0" y="0" width="680" height="300" rx="16" fill="url(#bgGrad)" filter="url(#cardShadow)"/>
+  <rect x="0" y="0" width="680" height="300" rx="16" fill="url(#halo)"/>
+  <rect x="0.5" y="0.5" width="679" height="299" rx="16" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect class="sweep" x="90" y="0.5" width="500" height="1.5" fill="url(#edgeLine)"/>
+
+  <line x1="0" y1="42" x2="680" y2="42" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="26" cy="21" r="5" fill="#334155"/>
+  <circle cx="46" cy="21" r="5" fill="#334155"/>
+  <circle cx="66" cy="21" r="5" fill="#334155"/>
+  <text class="barTxt" x="340" y="26" text-anchor="middle">prakash@edge — zsh</text>
+  <circle class="liveDot" cx="548" cy="21" r="3.5" fill="#22c55e"/>
+  <text class="barTxt" x="656" y="26" text-anchor="end">OPERATIONAL</text>
+
+  <g clip-path="url(#c1)">
+    <text x="40" y="84" class="prompt">prakash@edge:~$<tspan class="cmd" dx="7">whoami</tspan></text>
+  </g>
+  <g clip-path="url(#c2)">
+    <text x="40" y="120" class="name">prakash sewani<tspan class="dim" dx="7">· senior software engineer</tspan></text>
+  </g>
+  <g clip-path="url(#c3)">
+    <text x="40" y="162" class="prompt">prakash@edge:~$<tspan class="cmd" dx="7">cat focus</tspan></text>
+  </g>
+  <g clip-path="url(#c4)">
+    <text x="40" y="198" class="key">industrial automation<tspan class="dim" dx="6">·</tspan><tspan dx="6">iot</tspan><tspan class="dim" dx="6">·</tspan><tspan dx="6">edge</tspan><tspan class="dim" dx="6">·</tspan><tspan dx="6">rust</tspan><tspan class="dim" dx="6">·</tspan><tspan dx="6">go</tspan></text>
+  </g>
+  <g clip-path="url(#c5)">
+    <text x="40" y="252" class="prompt">prakash@edge:~$</text>
+    <rect class="cursor" x="238" y="238" width="12" height="18" rx="2" fill="#f59e0b"/>
+  </g>
+</svg>
