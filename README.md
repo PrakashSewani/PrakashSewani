@@ -77,7 +77,7 @@ The rest is in the [repos](https://github.com/PrakashSewani?tab=repositories) â€
 ### Numbers
 
 <div align="center">
-  <img src="./assets/stats.svg" width="880" alt="434 contributions, 382 commits and 15 pull requests across 21 repositories in the last twelve months, with a weekly contribution chart" />
+  <img src="./assets/stats.svg" width="880" alt="Twelve months of public activity: contributions, commits, pull requests across repositories, plus a weekly contribution chart" />
 </div>
 
 <sub>Public repos only â€” plenty of my work lives in private ones, so read these as a floor, not a ceiling. The panel is generated from the GitHub API by [`scripts/generate-stats.mjs`](./scripts/generate-stats.mjs) and refreshed weekly, so nothing here depends on a third-party image service.</sub>
