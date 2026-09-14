@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-labelledby="statsTitle statsDesc">
   <title id="statsTitle">Prakash Sewani — public activity over the last twelve months</title>
-  <desc id="statsDesc">418 contributions, 366 commits and 15 pull requests across 21 repositories in the last twelve months, shown as a weekly contribution chart spanning 53 weeks.</desc>
+  <desc id="statsDesc">437 contributions, 385 commits and 15 pull requests across 21 repositories in the last twelve months, shown as a weekly contribution chart spanning 53 weeks.</desc>
 
   <defs>
     <linearGradient id="panelFill" x1="0" y1="0" x2="0" y2="1">
@@ -31,9 +31,9 @@
   <text class="label" x="860" y="34" text-anchor="end">PUBLIC ACTIVITY ONLY</text>
   <line x1="40" y1="50" x2="860" y2="50" stroke="#1e293b"/>
 
-  <text class="value" x="40" y="118">418</text>
+  <text class="value" x="40" y="118">437</text>
   <text class="label" x="40" y="142">CONTRIBUTIONS</text>
-  <text class="value" x="255" y="118">366</text>
+  <text class="value" x="255" y="118">385</text>
   <text class="label" x="255" y="142">COMMITS</text>
   <text class="value" x="470" y="118">15</text>
   <text class="label" x="470" y="142">PULL REQUESTS</text>
@@ -96,7 +96,7 @@
   <rect x="798.1" y="241.0" width="11.5" height="3" rx="1.5" fill="#78350f"/>
   <rect x="813.6" y="241.0" width="11.5" height="3" rx="1.5" fill="#78350f"/>
   <rect x="829.1" y="237.0" width="11.5" height="7" rx="1.5" fill="#78350f"/>
-  <rect x="844.5" y="227.0" width="11.5" height="17" rx="1.5" fill="#b45309"/>
+  <rect x="844.5" y="214.0" width="11.5" height="30" rx="1.5" fill="#fbbf24"/>
   <line x1="40" y1="244" x2="860" y2="244" stroke="#1e293b"/>
   <text class="axis" x="40.0" y="262">Sep</text>
   <text class="axis" x="86.4" y="262">Oct</text>
